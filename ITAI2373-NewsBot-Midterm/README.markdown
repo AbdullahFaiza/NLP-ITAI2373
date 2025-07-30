@@ -5,7 +5,8 @@
 **Team Members**: Faiza Abdullah, Sha’Rise Griggs  
 **Date**: July 29, 2025  
 **Course**: ITAI 2373 Natural Language Processing (NLP)  
-**GitHub Repository**: https://github.com/AbdullahFaiza/NLP-ITAI2373  
+**GitHub Repository**: https://github.com/AbdullahFaiza/NLP-ITAI2373/ITAI2373-NewsBot-Midterm
+  
 
 ---
 
@@ -37,12 +38,13 @@ The **NewsBot Intelligence System** is an end-to-end Natural Language Processing
 ```
 NLP-ITAI2373/
 ├── Dataset/
-│   └── BBC News Train.csv       # BBC News dataset for training and analysis
-├── Midterm_NewsBot_Intelligence_System_FSMK_FaizaAbdullah.ipynb  # Main Jupyter notebook with all analyses
-├── README.md                    # Project overview and instructions
-├── Reflection_Journal_FaizaAbdullah.docx  # Individual reflection on contributions and learnings
-├── Reflection_Journal_ShaRiseGriggs.docx  # Individual reflection for Sha’Rise Griggs
-├── requirements.txt             # Python dependencies for reproducibility
+│   └── BBC News Train.csv                                           # BBC News dataset for training and analysis
+├── Original Notebook/
+│   └── Midterm_NewsBot_Intelligence_System_student.ipynb            # Preliminary Notebook provided by Professor
+├── Midterm_NewsBot_Intelligence_System_FSMK_FaizaAbdullah.ipynb     # Main Jupyter notebook with all analyses
+├── README.md                                                        # Project overview and instructions
+├── NewsBot_Reflection_Faiza&Sharise_ITA2373.pdf                     # Reflection on contributions and learnings
+├── requirements.txt                                                 # Python dependencies for reproducibility
 └── Visualizations/              # Output visualizations (e.g., word clouds, topic plots)
     ├── topic_distribution.png
     ├── confusion_matrix.png
@@ -107,7 +109,7 @@ To run specific analyses, execute individual cells or modify parameters (e.g., n
 - **Faiza Abdullah**: Led project development, implemented the core `NewsBotIntelligenceSystem` class, integrated TF-IDF classification, NER, sentiment analysis, and LDA. Resolved technical issues (e.g., `numpy`/`gensim` incompatibility) and wrote comprehensive documentation.
 - **Sha’Rise Griggs**: Contributed to the Research Extension, implementing LDA topic modeling, Emotional Intelligence, and Temporal Sentiment analysis. Assisted with qualitative evaluations and visualizations.
 
-*Note*: Due to collaboration challenges, the project was completed primarily by Faiza and Sha’Rise, with minimal contributions from other team members. See reflection journals for details.
+*Note*: Due to collaboration challenges, the project was completed primarily by Faiza and Sha’Rise.
 
 ---
 
@@ -144,5 +146,4 @@ To run specific analyses, execute individual cells or modify parameters (e.g., n
 ## Contact
 
 For questions or collaboration opportunities, contact:  
-- **Faiza Abdullah**: [email@example.com](mailto:email@example.com)  
-- **Sha’Rise Griggs**: [email@example.com](mailto:email@example.com)
+- **Faiza Abdullah**: faiza,abdullah79@icloud.com
