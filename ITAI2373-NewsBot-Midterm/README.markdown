@@ -43,13 +43,25 @@ NLP-ITAI2373/
 │   └── Midterm_NewsBot_Intelligence_System_student.ipynb            # Preliminary Notebook provided by Professor
 ├── Visualization/
 │   └── Average Sentiment Score.png                                  # Output visualizations (e.g., word clouds, topic plots)
-│   └── confusion_matrix.png
-│   └── confusion_matrix.png
-│   └── confusion_matrix.png
-│   └── confusion_matrix.png
+│   └── Average Topic Distribution across Articles.png
+│   └── Category Distribution.png
+│   └── Confusion Matrix-Naive Bayes.png
+│   └── Distribution of News Categories.png
+│   └── Distribution of Text Length.png
+│   └── Named Entity Analysis.png
+│   └── Overall Sentiment Distribution.png
+│   └── POS Tag Proportions by News Category.png
+│   └── Sentiment Analysis by Category.png
+│   └── Sentiment Label Distribution by Category.png
+│   └── Sentiment Polarity Trend over Time.png
+│   └── Syntactic Complexity across Categories.png
+│   └── TF-IDF Term Importance Across Categories.png
+│   └── Top Dependency Relations.png
+│   └── Top Terms.png
+│   └── TOP TF-IDF Terms by Category.png
 ├── Midterm_NewsBot_Intelligence_System_FSMK_FaizaAbdullah.ipynb     # Main Jupyter notebook with all analyses
-├── README.md                                                        # Project overview and instructions
 ├── NewsBot_Reflection_Faiza&Sharise_ITA2373.pdf                     # Reflection on contributions and learnings
+├── README.md                                                        # Project overview and instructions
 └── requirements.txt                                                 # Python dependencies for reproducibility
 
 ```
