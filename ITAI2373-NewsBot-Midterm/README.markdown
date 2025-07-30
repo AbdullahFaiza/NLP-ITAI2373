@@ -69,27 +69,34 @@ NLP-ITAI2373/
 ---
 
 ## Setup and Installation
+To run the NewsBot Intelligence System, follow these steps to set up the environment and dependencies. The project is built using Python 3.8+ and Jupyter Notebook, with all required libraries listed in requirements.txt.
 
 ### Prerequisites
-- Python 3.8+
-- Jupyter Notebook
-- Git
+- Python: Version 3.8 or higher
+- Jupyter Notebook: For running the main notebook
+- Git: For cloning the repository
+- Internet Connection: For downloading the dataset and SpaCy models
 
 ### Installation
-1. Clone the repository:
+1. Clone the repository: Clone the project to your local machine:
    ```bash
    git clone https://github.com/AbdullahFaiza/NLP-ITAI2373.git
-   cd NLP-ITAI2373
+   cd NLP-ITAI2373/ITAI2373-NewsBot-Midterm
    ```
-2. Install dependencies:
+2. Create a Virtual Environment (recommended): Set up a virtual environment to isolate dependencies:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
+4. Install dependencies: Install the required Python packages listed in requirements.txt:
    ```bash
    pip install -r requirements.txt
    ```
-3. Download SpaCy model:
+5. Download SpaCy model: Install the SpaCy English model used for Named Entity Recognition (NER) and text processing:
    ```bash
    python -m spacy download en_core_web_sm
    ```
-4. Install NLTK data:
+6. Download NLTK data:  Download the required NLTK datasets for tokenization, stop words, lemmatization, and sentiment analysis:
    ```python
    import nltk
    nltk.download(['punkt', 'stopwords', 'wordnet', 'vader_lexicon', 'averaged_perceptron_tagger', 'averaged_perceptron_tagger_eng'])
@@ -101,7 +108,7 @@ NLP-ITAI2373/
    jupyter notebook
    ```
 2. Open `Midterm_NewsBot_Intelligence_System_FSMK_FaizaAbdullah.ipynb` and run all cells.
-3. Ensure `BBC News Train.csv` is in the `Dataset/` folder or use the sample dataset provided in the notebook.
+3. Verify Dataset: Ensure the BBC News Train.csv file is in the Dataset/ folder. The notebook includes a fallback 5-article sample dataset if the full dataset is unavailable, but for optimal results, use the provided Dataset/BBC News Train.csv.
 
 ---
 
