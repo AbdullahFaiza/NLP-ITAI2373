@@ -41,14 +41,17 @@ NLP-ITAI2373/
 │   └── BBC News Train.csv                                           # BBC News dataset for training and analysis
 ├── Original Notebook/
 │   └── Midterm_NewsBot_Intelligence_System_student.ipynb            # Preliminary Notebook provided by Professor
+├── Visualization/
+│   └── Average Sentiment Score.png                                  # Output visualizations (e.g., word clouds, topic plots)
+│   └── confusion_matrix.png
+│   └── confusion_matrix.png
+│   └── confusion_matrix.png
+│   └── confusion_matrix.png
 ├── Midterm_NewsBot_Intelligence_System_FSMK_FaizaAbdullah.ipynb     # Main Jupyter notebook with all analyses
 ├── README.md                                                        # Project overview and instructions
 ├── NewsBot_Reflection_Faiza&Sharise_ITA2373.pdf                     # Reflection on contributions and learnings
-├── requirements.txt                                                 # Python dependencies for reproducibility
-└── Visualizations/              # Output visualizations (e.g., word clouds, topic plots)
-    ├── topic_distribution.png
-    ├── confusion_matrix.png
-    └── wordcloud_business.png
+└── requirements.txt                                                 # Python dependencies for reproducibility
+
 ```
 
 ---
