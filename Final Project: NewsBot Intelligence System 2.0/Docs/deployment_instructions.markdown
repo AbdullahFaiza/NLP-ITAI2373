@@ -1,7 +1,7 @@
 # Deployment Instructions: NewsBot Intelligence System 2.0
 
 ## Overview
-This guide details the steps to deploy NewsBot 2.0, implemented in `notebooks/NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`, as a production-ready NLP platform. The system can be deployed on Google Colab for development or AWS EC2 for scalable production use. It processes multilingual news articles, delivering insights, trends, and query responses.
+This guide details the steps to deploy NewsBot 2.0, implemented in the notebook `NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`, as a production-ready NLP platform. The system can be deployed on Google Colab for development or AWS EC2 for scalable production use. It processes multilingual news articles, delivering insights, trends, and query responses.
 
 ## Prerequisites
 - **System**: Linux (Ubuntu 20.04 recommended) or Google Colab.
@@ -138,4 +138,4 @@ This guide details the steps to deploy NewsBot 2.0, implemented in `notebooks/Ne
 - **Enhancement Error**: If Cell 5 reports 0%, verify `insight_category` in `enhanced_articles.csv`.
 - **Fine-tuning Error**: Ensure `transformers>=4.28.0` for `eval_strategy`.
 - **Git Error**: Re-run cleaning script if `metadata.widgets` persists.
-- **Contact**: Faiza Abdullah at [your-email@example.com].
+- **Contact**: Faiza Abdullah at [faiza.abdullah79"icloud.com].
