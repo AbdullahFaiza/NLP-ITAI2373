@@ -1,7 +1,7 @@
 # Technical Documentation: NewsBot Intelligence System 2.0
 
 ## Overview
-NewsBot 2.0 is an advanced Natural Language Processing (NLP) platform for analyzing multilingual news articles, implemented in `notebooks/NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`. It processes 39 articles (`data/cleaned_articles.csv`, 13 each in English, Spanish, French) to deliver insights, summaries, trends, and query responses. This document details the system architecture, implementation, and technical resolutions for the ITAI 2373 final project.
+NewsBot 2.0 is an advanced Natural Language Processing (NLP) platform for analyzing multilingual news articles, implemented in notebook `NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`. It processes 39 articles (`data/cleaned_articles.csv`, 13 each in English, Spanish, French) to deliver insights, summaries, trends, and query responses. This document details the system architecture, implementation, and technical resolutions for the ITAI 2373 final project.
 
 ## System Architecture
 NewsBot 2.0 comprises four modules:
@@ -63,8 +63,3 @@ Data flows: `cleaned_articles.csv` → `translated_articles.csv` → `enhanced_a
 - **Cloud Deployment**: AWS EC2 or Colab with GPU for faster processing.
 - **Caching**: Store models in `data/models/` to avoid re-downloads.
 - **Batch Processing**: Adjust `per_device_train_batch_size` (Cell 6) for larger datasets.
-
-## References
-- Vaswani, A., et al. “Attention is All You Need.” *Advances in Neural Information Processing Systems*, 2017.
-- Weights & Biases. https://wandb.ai/, accessed August 7, 2025.
-- ITAI 2373 Final Project Requirements, 2025.
