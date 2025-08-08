@@ -1,7 +1,16 @@
 # NewsBot Intelligence System 2.0
 
+## ITAI 2373 - NLP Final Project
+
+**Submittef By**: Faiza Abdullah
+**Date**: August 7, 2025 
+**Course**: ITAI 2373 Natural Language Processing (NLP)  
+**GitHub Repository**: https://github.com/AbdullahFaiza/NLP-ITAI2373/edit/main/Final%20Project%3A%20NewsBot%20Intelligence%20System%202.0/README.markdown
+  
+
+---
 ## Overview
-NewsBot 2.0 is an advanced Natural Language Processing (NLP) platform designed for analyzing, summarizing, and generating insights from multilingual news articles. Developed as the final project for ITAI 2373 - Natural Language Processing, this system builds upon the midterm NewsBot by integrating sophisticated NLP techniques, including transformer fine-tuning, topic modeling, multilingual processing, and conversational interfaces. Implemented in `notebooks/NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`, it processes a dataset of 39 articles (English, Spanish, French) to deliver actionable intelligence for media organizations, analysts, and businesses.
+NewsBot 2.0 is an advanced Natural Language Processing (NLP) platform designed for analyzing, summarizing, and generating insights from multilingual news articles. Developed as the final project for ITAI 2373 - Natural Language Processing, this system builds upon the midterm NewsBot by integrating sophisticated NLP techniques, including transformer fine-tuning, topic modeling, multilingual processing, and conversational interfaces. Implemented in `NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`, it processes a dataset of 39 articles (English, Spanish, French) to deliver actionable intelligence for media organizations, analysts, and businesses.
 
 ### Key Features
 - **Multilingual Analysis**: Translates articles using M2M100 (`facebook/m2m100_418M`), achieving 100% success for 39 articles (`translated_articles.csv`).
@@ -13,64 +22,65 @@ NewsBot 2.0 is an advanced Natural Language Processing (NLP) platform designed f
 
 ### Project Structure
 ```
-ITAI2373-NewsBot-Final/
-├── README.md
-├── requirements.txt
+ITAI2373/
+Final Project: NewsBot Intelligence System 2.0/
+├── README.md                                          # Comprehensive project overview
+├── requirements.txt                                   # All dependencies with versions
 ├── config/
-│   ├── settings.py
-│   └── api_keys_template.txt
+│   ├── settings.py                                    # Configuration management
+│   └── api_keys_template.txt                          # API key template (no real keys!)
 ├── src/
 │   ├── data_processing/
-│   │   ├── text_preprocessor.py
-│   │   ├── feature_extractor.py
-│   │   └── data_validator.py
+│   │   ├── text_preprocessor.py                        # Enhanced from midterm
+│   │   ├── feature_extractor.py                        # TF-IDF, embeddings, custom features
+│   │   └── data_validator.py                           # Data quality checks
 │   ├── analysis/
-│   │   ├── classifier.py
-│   │   ├── sentiment_analyzer.py
-│   │   ├── ner_extractor.py
-│   │   └── topic_modeler.py
+│   │   ├── classifier.py                               # Enhanced classification system
+│   │   ├── sentiment_analyzer.py                        # Advanced sentiment analysis
+│   │   ├── ner_extractor.py                              # Named entity recognition
+│   │   └── topic_modeler.py                              # LDA/NMF implementation
 │   ├── language_models/
-│   │   ├── summarizer.py
-│   │   ├── generator.py
-│   │   └── embeddings.py
+│   │   ├── summarizer.py                                 # Text summarization
+│   │   ├── generator.py                                    # Content generation
+│   │   └── embeddings.py                                 # Semantic embeddings
 │   ├── multilingual/
-│   │   ├── translator.py
-│   │   ├── language_detector.py
-│   │   └── cross_lingual_analyzer.py
+│   │   ├── translator.py                                 # Translation services
+│   │   ├── language_detector.py                           # Language identification
+│   │   └── cross_lingual_analyzer.py                     # Cross-language analysis
 │   ├── conversation/
-│   │   ├── query_processor.py
-│   │   ├── intent_classifier.py
-│   │   └── response_generator.py
-│   └── utils/
-│       ├── visualization.py           # Scripts for generating plots like trend_prediction.png
-│       ├── evaluation.py
-│       └── export.py
-├── notebooks/
-│   └── NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb
-├── tests/
-│   ├── test_preprocessing.py
-│   ├── test_classification.py
-│   ├── test_topic_modeling.py
-│   └── test_integration.py
-├── data/
-│   ├── raw/
-│   ├── processed/
-│   ├── models/
-│   └── results/
-├── docs/
-│   ├── technical_documentation.md
-│   ├── user_guide.md
-│   ├── api_reference.md
-│   └── deployment_instructions.md
-├── reports/
-│   ├── executive_summary.doc
-│   ├── technical_report.doc
-│   ├── reflective_journal.doc
-│   ├── presentation_slides.pptx      # Slide deck for project presentation
-│   ├── presentation_slides.pdf       # PDF version of slides
-│   └── presentation_video.mp4        # Video walkthrough of the system
-├── snapshot/
-│   └── repository_snapshot.png       # Snapshot of the repository structure
+│   │   ├── query_processor.py                           # Natural language query handling
+│   │   ├── intent_classifier.py                           # Intent detection
+│   │   └── response_generator.py                        # Response generation
+├── NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb      # Main Jupyter notebook with all analyses
+├── Docs/
+│   ├── technical_documentation.md                     # Detailed technical specs
+│   ├── user_guide.md                                  # End-user instructions
+│   ├── api_reference.md                               # API documentation
+│   └── deployment_instructions.md                     # Production deployment
+├── Reports/
+│   ├── FP_TechnicalDoc_Faiza_Abdullah_ITAI2373.pdf      # Detailed technical analysis
+│   ├── FP_ExecutiveSummary_Faiza_Abdullah_ITAI2373.pdf   # Business-focused overview
+│   ├── FP_ReflectionJournal_Faiza_Abdullah_ITAI2373.pdf
+│   ├── presentation_slides.pptx                           # Slide deck for project presentation
+│   ├── presentation_slides.pdf                            # PDF version of slides
+│   └── presentation_video.mp4                             # Video walkthrough of the system
+├── Visualization/
+│   └── Article Category Distribution.png                  # Output visualizations (e.g., word clouds, bar charts etc.)
+│   └── Bonus - Bias Detection Distribution.png                                  
+│   └── Bonus - Trend Prediction by Insight Category.png
+│   └── Entity Relation Knowledge Graph.png
+│   └── Insight Category Distribution.png
+│   └── Language Distribution of Articles.png
+│   └── Pipeline Validation Success Rate.png
+│   └── Sentiments Trends Over Time.png
+│   └── Top Query Matches.png
+│   └── Top Similar Articles by Cosine.png
+│   └── Topic 0 using Word Cloud.png
+│   └── Topic 1 using Word Cloud.png
+│   └── Topic 2 using Word Cloud.png
+│   └── Topic 3 using Word Cloud.png
+└── └── Topic 4 using Word Cloud.png
+
 ```
 
 ## Installation
@@ -129,19 +139,9 @@ ITAI2373-NewsBot-Final/
 - **Trend Prediction**: Fixed `'str' object has no attribute 'get'` in Cell 7 with `json.loads`.
 - **Git Compatibility**: Removed `metadata.widgets` to resolve notebook saving error.
 
-## Contributing
-Contributions are welcome! Please:
-1. Fork the repository.
-2. Create a branch (`git checkout -b feature-branch`).
-3. Commit changes (`git commit -m "Add feature"`).
-4. Push to the branch (`git push origin feature-branch`).
-5. Open a pull request.
-
-## License
-MIT License. See `LICENSE` for details.
+---
 
 ## Contact
-For issues or inquiries, contact Faiza Abdullah at [your-email@example.com].
 
-## Repository Snapshot
-A snapshot of the current repository structure is available in `snapshot/repository_snapshot.png`, providing a visual overview of the project organization.
+For questions or collaboration opportunities, contact:  
+- **Faiza Abdullah**: faiza.abdullah79@icloud.com
