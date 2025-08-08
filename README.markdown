@@ -52,4 +52,4 @@ NLP-ITAI2373/
 
 For questions or collaboration opportunities, contact:  
 - **Faiza Abdullah**: faiza.abdullah79@icloud.com
-'''
+
