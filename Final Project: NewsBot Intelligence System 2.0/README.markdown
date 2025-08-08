@@ -2,7 +2,7 @@
 
 ## ITAI 2373 - NLP Final Project
 
-**Submittef By**: Faiza Abdullah
+**Submitted By**: Faiza Abdullah
 
 **Date**: August 7, 2025 
 
