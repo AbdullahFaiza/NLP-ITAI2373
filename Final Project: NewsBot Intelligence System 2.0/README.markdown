@@ -3,8 +3,11 @@
 ## ITAI 2373 - NLP Final Project
 
 **Submittef By**: Faiza Abdullah
+
 **Date**: August 7, 2025 
+
 **Course**: ITAI 2373 Natural Language Processing (NLP)  
+
 **GitHub Repository**: https://github.com/AbdullahFaiza/NLP-ITAI2373/edit/main/Final%20Project%3A%20NewsBot%20Intelligence%20System%202.0/README.markdown
   
 
