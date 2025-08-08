@@ -1,6 +1,6 @@
 # NLP-ITAI2373 Course Repository
 
-This repository contains all the assignments and projects completed for the NLP-ITAI2373 course. All work has been diligently carried out by Faiza Abdullah (faiza.abdullah79@icloud.com). Special thanks to Professor Patricia McManus for her invaluable guidance and support throughout the course.
+This repository contains landmarks and milestones of my Natural Language Processing (NLP) Journey! ASpecial thanks to Professor Patricia McManus for her invaluable guidance and support throughout the course.
 
 ## Course Reflection
 This course, an intermediate exploration of Natural Language Processing (NLP), has been a fascinating journey into a subfield of linguistics intersecting with computer science, information engineering, and artificial intelligence. It delves into the complex interactions between computers and human language, tackling challenges like linguistic nuances, continuous sound processing, and the ambiguities of context and semantics, making it one of the most exciting and challenging areas of AI. The course provided an in-depth look at pivotal AI pillars, including systems like Siri, Alexa, and Mycroft, and showcased renowned NLP applications from Hanson Robotics to online customer service platforms. The hands-on experience with various assignments and labs has deepened my understanding of these dynamic technologies.
@@ -55,3 +55,5 @@ This course, an intermediate exploration of Natural Language Processing (NLP), h
 
 - **Lab 04 - Text Representation**  
   - Here, I worked on converting text into numerical formats for machine learning, exploring vectorization techniques. This lab was key in bridging linguistic data with
+ 
+ll work has been diligently carried out by Faiza Abdullah (faiza.abdullah79@icloud.com). 
