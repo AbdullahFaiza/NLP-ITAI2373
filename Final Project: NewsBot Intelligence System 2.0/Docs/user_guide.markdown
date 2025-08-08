@@ -51,5 +51,5 @@ NewsBot 2.0 is a user-friendly NLP platform for analyzing news articles in multi
 
 ## System Outputs
 - **Data Files**: `translated_articles.csv`, `enhanced_articles.csv`, `finetuned_articles.csv`, `trend_predictions.csv`.
-- **Visualizations**: `query_matches.png`, `trend_prediction.png`, `validation_results.png`.
+- **Visualizations**: E.g. `query_matches.png`, `trend_prediction.png`, `validation_results.png`.
 - **Logs**: `outputs/logs.txt` (e.g., `Sample insights`).
