@@ -37,6 +37,7 @@ The **NewsBot Intelligence System** is an end-to-end Natural Language Processing
 
 ```
 NLP-ITAI2373/
+ITAI2373-NewsBot-Midterm/
 ├── Dataset/
 │   └── BBC News Train.csv                                           # BBC News dataset for training and analysis
 ├── Original Notebook/
