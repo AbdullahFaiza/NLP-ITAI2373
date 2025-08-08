@@ -7,7 +7,7 @@ This course, an intermediate exploration of Natural Language Processing (NLP), h
 
 ## Repository Structure
 
-'''
+```
 NLP-ITAI2373/
 ├── A03_Voice_Tech_in_the_Multiverse_Creative_Challenge/          # The creative project related to the voice technology integration.
 ├── Bonus_Tutorial-Tools_of_the_Trade/                            # Includes resources and exercises on essential NLP tools and frameworks.
@@ -19,8 +19,8 @@ NLP-ITAI2373/
 ├── Lab_05_-_Part-of-Speech_Tagging_in_the_Real_World/            # Contains resources for part-of-speech tagging in real-time data.
 └── README.md                                                     # Course / repository overview and structure
 
-'''
-'''
+```
+
 ## Critical Modules and Assignments
 
 - **A03 Voice Tech in the Multiverse Creative Challenge**  
@@ -47,7 +47,7 @@ NLP-ITAI2373/
 - **Lab 05 - Part-of-Speech Tagging in the Real World**
   - This lab focused on tagging parts of speech in real-time data, enhancing grammatical analysis skills. It was significant for its practical application in improving language understanding systems.
  
-'''
+---
 ## Contact
 
 For questions or collaboration opportunities, contact:  
