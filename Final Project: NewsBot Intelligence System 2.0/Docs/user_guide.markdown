@@ -1,7 +1,7 @@
 # User Guide: NewsBot Intelligence System 2.0
 
 ## Introduction
-NewsBot 2.0 is a user-friendly NLP platform for analyzing news articles in multiple languages. This guide explains how to use the system to query news, view trends, and access insights, implemented in `notebooks/NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`.
+NewsBot 2.0 is a user-friendly NLP platform for analyzing news articles in multiple languages. This guide explains how to use the system to query news, view trends, and access insights, implemented in notebook `NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`.
 
 ## Getting Started
 1. **Access the System**:
@@ -47,7 +47,7 @@ NewsBot 2.0 is a user-friendly NLP platform for analyzing news articles in multi
 - **No Outputs**: Re-run Cells 1–9 and check `outputs/logs.txt` for errors.
 - **Git Error**: If saving fails, contact the administrator to run the `metadata.widgets` cleaning script.
 - **Slow Processing**: Switch to GPU in Colab (*Runtime > Change runtime type > GPU*).
-- **Contact**: Faiza Abdullah at [your-email@example.com].
+- **Contact**: Faiza Abdullah at faiza.abdullah79"icloud.com.
 
 ## System Outputs
 - **Data Files**: `translated_articles.csv`, `enhanced_articles.csv`, `finetuned_articles.csv`, `trend_predictions.csv`.
