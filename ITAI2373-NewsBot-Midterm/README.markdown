@@ -168,4 +168,4 @@ To run specific analyses, execute individual cells or modify parameters (e.g., n
 ## Contact
 
 For questions or collaboration opportunities, contact:  
-- **Faiza Abdullah**: faiza,abdullah79@icloud.com
+- **Faiza Abdullah**: faiza.abdullah79@icloud.com
