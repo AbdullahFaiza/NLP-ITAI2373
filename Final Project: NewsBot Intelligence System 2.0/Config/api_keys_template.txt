@@ -1,0 +1,5 @@
+# API Keys Template for NewsBot 2.0
+# Replace <YOUR_KEY> with your actual API key
+# Do not commit this file with real keys to version control!
+
+WANDB_API_KEY=<YOUR_KEY>
