@@ -1,7 +1,7 @@
 # API Reference: NewsBot Intelligence System 2.0
 
 ## Overview
-This document details the API for NewsBot 2.0, implemented in `notebooks/NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`. It covers classes and functions used in the NLP pipeline.
+This document details the API for NewsBot 2.0, implemented in notebook `NewsBot_2_0_Final_Project_FaizaAbdullah.ipynb`. It covers classes and functions used in the NLP pipeline.
 
 ## Classes
 
